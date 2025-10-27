@@ -1,0 +1,19 @@
+{
+  "name": "potofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "server": "cd backend && node index.js",
+    "client": "cd frontend && npm start",
+    "start-dev": "concurrently \"npm run server\" \"npm run client\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
